@@ -1,8 +1,14 @@
-//
-//  CharacterViewModel.swift
-//  Rick_And_Morty_API
-//
-//  Created by Alex Rodrigues Pacheco on 14/11/24.
-//
+class CharacterViewModel {
+    func loadHomeData() {
+        let service = CharacterService()
+        service.fetchHomeData { result in
+            switch result {
+            case .success(let homeData):
+                print(homeData)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+}
 
-import Foundation
