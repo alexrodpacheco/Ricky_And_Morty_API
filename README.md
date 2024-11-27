@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **Ricky_And_Morty_API**
 
 **PT/BR**
@@ -8,3 +9,7 @@ O projeto foi escrito inicialmente em arquitetura MVVM de forma exaustiva, com m
 
 A Swift project from scratch using the Rick And Morty cartoon API.
 The project was initially written in an exhaustive MVVM architecture, with a lot of code repetition and room for many improvements, with the aim of exploring these evolutions step by step.
+=======
+# Ricky_And_Morty_API
+A Swift App for Rick &amp; Morty API from scratch
+>>>>>>> developer

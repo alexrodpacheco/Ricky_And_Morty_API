@@ -13,6 +13,7 @@ class HomeTabBarController: UITabBarController {
         let episodeViewController = EpisodeViewController()
         let settingsViewController = SettingsViewController()
         
+        //Refactor - set viewcontrollers title in current class
         characterViewController.navigationItem.largeTitleDisplayMode = .automatic
         locationViewController.navigationItem.largeTitleDisplayMode = .automatic
         episodeViewController.navigationItem.largeTitleDisplayMode = .automatic
